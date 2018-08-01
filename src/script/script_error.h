@@ -64,9 +64,8 @@ typedef enum ScriptError_t
     SCRIPT_ERR_WITNESS_UNEXPECTED,
     SCRIPT_ERR_WITNESS_PUBKEYTYPE,
 
-    /* Constant scriptCode */
-    SCRIPT_ERR_OP_CODESEPARATOR,
-    SCRIPT_ERR_SIG_FINDANDDELETE,
+    /* fork id */
+    SCRIPT_ERR_MUST_USE_FORKID,
 
     SCRIPT_ERR_ERROR_COUNT
 } ScriptError;
